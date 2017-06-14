@@ -8,16 +8,19 @@ public class Function_2 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        System.out.print("Введите число от 1 до 20: ");
+        System.out.print("Введите сумму: ");
         int num = in.nextInt();
-        if(num==1){
+        int ultNum= num % 10;
+        int secUltNum= num % 100;
+        int penUltNum= secUltNum-ultNum;
+
+        if(ultNum==1 && penUltNum!=10){
             System.out.println(num + " рубль");
-        }
-        else if(num==2||num==3||num==4){
+        } else if(ultNum>1 && ultNum<5 && penUltNum!=10){
             System.out.println(num + " рубля");
-        }
-        else {
+        } else if(num>=0){
             System.out.println(num + " рублей");
-        }
-    }
+        } else {
+            System.out.println("Вы ввели не корректную сумму!");}
+  }
 }
