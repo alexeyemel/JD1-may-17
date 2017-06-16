@@ -10,8 +10,9 @@ public class Task_1 {
     public static void main(String[] args) {
         int[] array = new int[10];
         Random rand = new Random();
-        for (int i = 0; i < array.length; i++) {
-            array[i] = rand.nextInt(100);
+        for (int i=0;i < array.length;i++) {
+            array[i]=rand.nextInt(100)+1;
+
         }
         System.out.println("Массив заполненный рандомными числами:");
         for (int i = 0; i < array.length; i++) {

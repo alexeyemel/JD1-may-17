@@ -32,11 +32,11 @@ public class Task_3 {
         }
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
-            if ((i > minIndex && i<maxIndex)||(i < minIndex && i>maxIndex)) {
-                sum+=array[i];
+            if ((i > minIndex && i < maxIndex) || (i < minIndex && i > maxIndex)) {
+                sum += array[i];
             }
         }
-        System.out.println("сумма: "+sum);
+        System.out.println("сумма: " + sum);
     }
 }
 
