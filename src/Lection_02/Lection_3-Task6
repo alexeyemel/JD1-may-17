@@ -1,0 +1,33 @@
+package Lection_3;
+
+import java.util.Random;
+
+/**
+ * Created by алексей on 16.06.2017.
+ * Создать метод equals? который определяет равны ли между собой соответствующие элементы 2-х мерных массивов
+ */
+/*public class Task_6 {
+    public static void main(String[] args) {
+        int[][] array = new int[3][3];
+        Random rand = new Random();
+    }
+        for (int i = 0; i < array.length; i++){
+        for (int j = 0; j < array[0].length; j++){
+            array[i] = rand.nextInt(100);
+        }
+    }
+        equals(new int[][]{{3, 1, 2},{3, 1, 2},},2,2,2,2);
+
+
+    }
+    public static void equals(int[] [] array, int i1, int j1, int i2, int j2){
+
+                if (array[i1][j1] == array[i2][j2]) {
+                    System.out.println("Да");
+                } else {
+                    System.out.println("Нет");
+                    ;
+                }
+
+    }
+}*/
