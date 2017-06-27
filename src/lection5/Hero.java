@@ -3,6 +3,7 @@ package lection5;
 /**
  * Created by алексей on 26.06.2017.
  */
+<<<<<<< HEAD
 public abstract class Hero implements Mortal {
     String name;
     int health;
@@ -33,3 +34,20 @@ public abstract class Hero implements Mortal {
         }
     }
 }
+=======
+public abstract class Hero {
+    String name;
+    int damageHero;
+
+    Hero(String name) {
+        System.out.println("Вы создали героя " + name);
+        this.name=name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public abstract void attackEnemy(Enemy damage);
+}
+>>>>>>> c8cdc482c5e92cc313dab291d8f5bbb264165fd6

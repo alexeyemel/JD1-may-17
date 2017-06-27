@@ -1,5 +1,6 @@
 package lection5;
 
+<<<<<<< HEAD
 import java.util.Random;
 
 /**
@@ -29,3 +30,21 @@ public class Warrior extends Hero {
 
     }
 }
+=======
+/**
+ * Created by алексей on 26.06.2017.
+ */
+public class Warrior extends Hero{
+
+int damageWarrior=25;
+    Warrior(String name) {
+        super(name);
+    }
+
+    @Override
+      public void attackEnemy(Enemy damage) {
+        System.out.println(name + " Наносит удар по врагу топором");
+        damage.takeDamage(damageWarrior);
+    }
+}
+>>>>>>> c8cdc482c5e92cc313dab291d8f5bbb264165fd6
